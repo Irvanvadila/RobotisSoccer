@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 ## Tes
 
@@ -7,6 +8,9 @@
 #### tes markdown
 =======
 # H1
+=======
+
+>>>>>>> Stashed changes
 ## H2
 ### H3
 
