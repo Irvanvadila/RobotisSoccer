@@ -1,0 +1,8 @@
+prefix=/home/robotis/catkin_krsbi/devel
+
+Name: image_processing
+Description: Description of image_processing
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robotis/catkin_krsbi/devel/lib 
+Requires: 

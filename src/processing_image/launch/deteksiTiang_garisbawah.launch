@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Launches an UVC camera, the ball detector and its visualization  -->
+<launch>
+  <!-- UVC camera -->
+    <rosparam file="$(find processing_image)/config/hsv_param_tiang.yaml" />
+
+     <include file="$(find processing_image)/launch/main.launch" />
+
+    <arg name="config_path" default="$(find processing_image)/config/tiang.yaml"/>
+
+	<node pkg="processing_image" type="deteksi_garis__tiang.py" name="garis_bawah_tiang" args="" output="screen">
+		<rosparam command="load" file="$(arg config_path)"/>
+		<param name="yaml_path" type="string" value="$(arg config_path)"/>
+<!-- 		<remap from="/ball_detector_node/image_in" to="/usb_cam_node/image_raw" /> -->
+<!-- 		<remap from="/ball_detector_node/cameraInfo_in" to="/usb_cam_node/camera_info" /> -->
+
+	</node>
+	<!-- nyoba dimatikan -->
+</launch>

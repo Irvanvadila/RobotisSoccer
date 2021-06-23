@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<launch>
+	<!-- ini penambahan baru -->
+	<!-- robotis op3 manager -->
+	<include file="$(find op3_manager)/launch/op3_manager.launch"/>
+  
+	<!-- face tracking -->
+	<include file="$(find op3_demo)/launch/face_detection_op3.launch" />
+
+	<!-- camera setting tool -->
+	<include file="$(find op3_camera_setting_tool)/launch/op3_camera_setting_tool.launch" />
+		
+	<!-- sound player -->
+	<node pkg="ros_madplay_player" type="ros_madplay_player" name="ros_madplay_player" output="screen"/>
+			
+	<!-- web setting -->
+	<include file="$(find op3_web_setting_tool)/launch/web_setting_server.launch" />	
+	<!-- sampai atas ini -->
+		
+	<arg name="config_path" default="$(find image_processing)/config/tes.yaml"/>
+		
+	<!--ini ball tracking -->
+	<node pkg="image_processing" type="ball_tracking_node" name="ball_tracking" args="" output="screen">
+		<rosparam command="load" file="$(arg config_path)"/>  
+		<param name="yaml_path" type="string" value="$(arg config_path)"/>
+		<remap from="/ball_detector/image_in" to="/usb_cam_node/image_raw" />
+		<remap from="/ball_detector/cameraInfo_in" to="/usb_cam_node/camera_info" />
+	</node>
+
+</launch>
+
