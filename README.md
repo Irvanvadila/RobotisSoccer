@@ -1,7 +1,5 @@
 # RobotisSoccer
-Repository for robotis op3 soccer
+Workspace disesuaikan dengan struktur folder ROS (Robot Operating System)
 
-
-# Git References
-1. https://www.mit.edu/~amidi/teaching/data-science-tools/study-guide/engineering-productivity-tips/
-2. https://www.freecodecamp.org/news/git-cheat-sheet/
+### NOTE:
+1. Semua source code berada di dalam folder /src
