@@ -1,0 +1,8 @@
+prefix=/home/robotis/RobotisSoccer/devel
+
+Name: kri_2021
+Description: Description of kri_2021
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
