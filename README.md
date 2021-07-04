@@ -27,7 +27,7 @@ Workspace disesuaikan dengan struktur folder ROS (Robot Operating System),
                             - robot_3/          # ROBOT 3
 
                     - launch/           # LAUNCH FILE KRI 2021
-                        - main/         # LAUNCH FILE UNTUK KEPENTINGAN LOMBA
+                        - main/              # LAUNCH FILE UNTUK KEPENTINGAN LOMBA
                             - LMB.launch        # LAUNCH FILE UNTUK LMB (LOMBA MENGGIRING BOLA) -- mohon diedit dan disesuaikan setiap robot
                             - LL.launch         # LAUNCH FILE UNTUK LMB (LOMBA LARI) -- mohon diedit dan disesuaikan setiap robot 
                             - LKR.launch        # LAUNCH FILE UNTUK LKR (LOMBA KERJA SAMA ROBOT) -- mohon diedit dan disesuaikan setiap robot 
