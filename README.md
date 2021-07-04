@@ -49,7 +49,7 @@ Workspace disesuaikan dengan struktur folder ROS (Robot Operating System),
 
 
 ### NOTE:
-1. Semua source code berada di dalam folder `src/`. Mohon jangan diubah" folder `devel/` dan  `build/`.
+1. Semua source code berada di dalam folder `src/`. Mohon jangan diubah" source code di setiap file folder `devel/` dan  `build/`.
 
 
 ##### MAINTAINER
