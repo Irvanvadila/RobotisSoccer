@@ -1,7 +1,6 @@
 # RobotisSoccer
-Workspace disesuaikan dengan struktur folder ROS (Robot Operating System)
-
-## FileSystem Structure:
+Workspace disesuaikan dengan struktur folder ROS (Robot Operating System), 
+FileSystem struktur folder :
 
         RobotisSoccer/          # WORKSPACE NAME "RobotisSoccer" 
             - devel/            # DEVEL FOLDER UNTUK ROS CONFIGUTATOR
