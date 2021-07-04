@@ -53,4 +53,4 @@ Workspace disesuaikan dengan struktur folder ROS (Robot Operating System),
 
 
 ##### MAINTAINER
-1. Dwi Setia Fardhana
+1. Dwi Setia Fardhana (setiafardhana@gmail.com)
