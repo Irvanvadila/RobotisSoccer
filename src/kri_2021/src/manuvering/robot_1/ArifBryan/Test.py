@@ -28,7 +28,7 @@ taskSequence = "NONE"
 imuData = Imu()
 orientData = Vector3()
 
-# Wafak
+# Wafak keren
 
 def ballState_Callback(data):
     global ballState
