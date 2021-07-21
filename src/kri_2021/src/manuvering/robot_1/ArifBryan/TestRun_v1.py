@@ -253,7 +253,6 @@ t = 0
 
 if __name__ == '__main__':
     try:
-        # Testing git
         Kp = 5.0
         Ki = 0.01
         Kd = 10.0
