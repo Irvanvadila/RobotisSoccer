@@ -28,8 +28,6 @@ taskSequence = "NONE"
 imuData = Imu()
 orientData = Vector3()
 
-# Nambah comment
-
 def ballState_Callback(data):
     global ballState
     ballState = data.data
